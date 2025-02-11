@@ -1,10 +1,24 @@
 # Bash
 -----------------------------
-
 Basic Commands:
 
-| Command | Definition                                       |
-|---------|--------------------------------------------------|
-| pwd     | shows current directory                          |
-| ls      | lists all files in current directory             |
-| ls -l   | lists all files with more details (rights, etc.) |
+| Command                       | Definition                                         |
+|-------------------------------|----------------------------------------------------|
+| pwd                           | shows current directory                            |
+| ls                            | lists all files in current directory               |
+| ls -l                         | lists all files with more details (rights, etc.)   |
+| mkdir                         | create empty folder                                |
+| rmdir                         | delete empty folder                                |
+| touch                         | create file ("touch test.txt")                     |
+| cat filename                  | shows contents of a file                           |
+| cat filename filename2        | shows multiple files                               |
+| rm                            | delete file                                        |
+| rm -r foldername              | delete folder                                      |
+| mv                            | rename file / move file ("mv test.txt foldername") |
+| mv -r                         | move folder ("mv foldername foldername2")          |
+| echo                          | gives the echo back                                |
+| echo "Hallo" > test.txt       | overwrites the file with "Hallo"                   |
+| echo "Hallo" >> test.txt      | Adds "Hallo" to the file                           |
+| ping url                      | test status of website                             |
+| cp filename foldername        | copy file                                          |
+| copy -r foldername foldername | copy folder                                        |
