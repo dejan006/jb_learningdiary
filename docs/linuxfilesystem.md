@@ -9,8 +9,12 @@ The Linux file system is place in a computer, in which all files and programs ar
 Filesystem Explained:
 
 /bin:
+- contains fundamental user commands
+- These commands provide the basic functionality to interact with the filesystem
+- Examples: ls, cat, cp, etc.
 
 /boot:
+- g
 
 /dev:
 
