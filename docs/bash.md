@@ -22,3 +22,18 @@ Basic Commands:
 | ping url                      | test status of website                             |
 | cp filename foldername        | copy file                                          |
 | copy -r foldername foldername | copy folder                                        |
+| if fi                         | syntax for if                                      |
+
+
+
+```bash
+if [ Bedingung ]; then
+  # Code 
+fi
+
+# Example
+zahl=10
+if [ "$zahl" -gt 5 ]; then
+    echo "Die Zahl ist größer als 5"
+fi
+```
