@@ -100,6 +100,7 @@ nav:
   - Welcome: index.md
   - Bash: bash.md
   - Linux: linuxfilesystem.md
+  - Platform: platform.md
 
 # +--------------------------------------------------------------------------------------------------------+
 # |                                                                                                        |
