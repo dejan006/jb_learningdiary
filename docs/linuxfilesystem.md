@@ -4,7 +4,7 @@ The Linux file system is place in a computer, in which all files and programs ar
 
 ### **Here's a picture of it to understand it better:**
 
-![ ](../images/linux_filesystem.jpg)
+![ ](https://tecadmin.net/wp-content/uploads/2022/06/linux-filesystem-hierarchy.png)
 
 ## Filesystem Explained:
 
