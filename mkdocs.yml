@@ -101,6 +101,8 @@ nav:
   - Bash: bash.md
   - Linux: linuxfilesystem.md
   - Platform: platform.md
+  - AIC: aic.md
+  - Infrastructure: infrastructure.md
 
 # +--------------------------------------------------------------------------------------------------------+
 # |                                                                                                        |

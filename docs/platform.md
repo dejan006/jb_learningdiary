@@ -27,5 +27,5 @@ Direnv is a terminal tool that automatically loads / unloads environment variabl
 5. Now everything is updated
 
 ----------------------------
-### Useful commands
+## Useful commands
 - To build: "npx nx run “name”:build" —> building what I wanted to be built
