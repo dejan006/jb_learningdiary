@@ -28,3 +28,6 @@ The method that Fleet Commander uses is called "**reconciliation**". Reconciliat
 
 ### Second Difference
 I mentioned that the request is not in the Git and won't be forgotten after some time. This gives the opportunity to change something and it will be automatically changed for everything, because the commander goes through it every few minutes and sees if something needs to be changed. Also if I delete something the commander will see that something is missing and will just replace it with a new one. In the first concept I would have to create a ticket for example and mistakes can happen.
+
+## Notes
+Link for reading more about reconciliation: https://release-1-6.cluster-api.sigs.k8s.io/developer/providers/implementers-guide/controllers_and_reconciliation
