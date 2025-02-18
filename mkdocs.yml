@@ -102,9 +102,7 @@ nav:
   - Linux: linuxfilesystem.md
   - Platform: platform.md
   - AIC: aic.md
-  - Infrastructure:
-    - OSI: osi.md
-    - Soon..:
+  - OSI: osi.md
 
 # +--------------------------------------------------------------------------------------------------------+
 # |                                                                                                        |
