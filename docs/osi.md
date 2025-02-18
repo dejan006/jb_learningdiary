@@ -1,5 +1,5 @@
-# Infrastructure
+# Infrastructure - OSI Model
 ---------------------------------------------
 
-### Basics
+### The OSI Model
 soon...
