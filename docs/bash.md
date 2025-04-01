@@ -35,6 +35,7 @@ Linux **man pages** (manual pages) are built-in documentation for commands, func
 ```bash
 man <command>
 Example: man ls
+```
 
 ## If Example
 ```bash
