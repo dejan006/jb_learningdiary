@@ -26,6 +26,14 @@ Basic Commands:
 | grep "text" test.txt          | search for something specific ("text") in a file   |
 | history                       | command history                                    |
 
+# Linux Man Pages – Quick Guide
+
+Linux **man pages** (manual pages) are built-in documentation for commands, functions, config files, and more. You access them via the `man` command in the terminal.
+
+## Basic Usage
+```bash
+man <command>
+Example: man ls
 
 ## If Example
 ```bash
