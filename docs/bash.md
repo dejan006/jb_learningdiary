@@ -25,6 +25,7 @@ Basic Commands:
 | if fi                         | syntax for if                                      |
 | grep "text" test.txt          | search for something specific ("text") in a file   |
 | history                       | command history                                    |
+| clear                         | clear terminal                                     |
 
 # Linux Man Pages – Quick Guide
 
