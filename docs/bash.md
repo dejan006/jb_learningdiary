@@ -27,7 +27,7 @@ Basic Commands:
 | history                       | command history                                    |
 | clear                         | clear terminal                                     |
 
-# Linux Man Pages – Quick Guide
+## Linux Man Pages – Quick Guide
 
 Linux **man pages** (manual pages) are built-in documentation for commands, functions, config files, and more. You access them via the `man` command in the terminal.
 
