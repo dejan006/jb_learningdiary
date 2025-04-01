@@ -1,25 +1,27 @@
-# Kubernetes Objekte – Einfach erklärt
-## Was sind Kubernetes Objekte?
+# Kubernetes Objects – Simply Explained
 
-In Kubernetes gibt es **Objekte**, die zeigen, **wie ein Cluster aussehen soll**. Sie speichern Infos darüber, **was laufen soll**, **wie es laufen soll** und **wie viele Ressourcen** verwendet werden dürfen.
+## What Are Kubernetes Objects?
 
-Beispiele für Infos im Objekt:
-- Welche App soll laufen?
-- Wie viele Kopien (Replicas) soll es geben?
-- Welche Regeln gelten (z.B. Neustarten bei Fehler)?
+In Kubernetes, there are **objects** that define **how a cluster should look**. They store information about **what should run**, **how it should run**, and **how many resources** can be used.
 
-So ein Objekt ist wie ein **Wunschzettel** – Kubernetes nennt das den **"desired state"** (gewünschter Zustand). Kubernetes kümmert sich dann darum, dass alles genau so umgesetzt wird. Wenn etwas schiefläuft (z.B. ein Container fällt aus), wird es automatisch repariert.
+Examples of information stored in an object:
+- Which app should run?
+- How many copies (replicas) should there be?
+- What rules apply (e.g. restart on failure)?
 
-## Wie arbeitet Kubernetes damit?
+An object is like a **wish list** – Kubernetes calls this the **"desired state"**. Kubernetes takes care of making sure that everything runs exactly as described. If something goes wrong (e.g. a container crashes), it will automatically be fixed.
 
-Jedes Objekt hat zwei wichtige Teile:
-- `spec`: was möchte man (der Wunschzustand)
-- `status`: was gerade wirklich los ist
+## How Does Kubernetes Work With That?
 
-Kubernetes gleicht diese beiden ständig ab und bringt das System in den gewünschten Zustand zurück.
+Every object has two important parts:
+- `spec`: what you want (the desired state)
+- `status`: what is actually happening
 
-## Wie erstellt man ein Objekt?
-Du kannst ein Objekt mit der Kommandozeile **`kubectl`** erstellen, z.B.:
+Kubernetes constantly compares these two and brings the system back to the desired state.
+
+## How Do You Create an Object?
+
+You can create an object using the command line tool **`kubectl`**, for example:
 
 ```bash
 kubectl apply -f test.yaml
