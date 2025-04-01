@@ -25,3 +25,4 @@ You can create an object using the command line tool **`kubectl`**, for example:
 
 ```bash
 kubectl apply -f test.yaml
+```
