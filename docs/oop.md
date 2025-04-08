@@ -1,56 +1,56 @@
-# Objektorientierte Programmierung (OOP)
+# Object-Oriented Programming (OOP)
 
-## Einführung
+## Introduction
 
-Wenn in einem Programm alle Funktionen und Variablen in einer einzigen Datei ohne Struktur untergebracht sind, kann dies schnell zu Chaos führen. Die Übersichtlichkeit leidet, der Code wird schwer wartbar und Fehler schleichen sich leichter ein. Hier kommt die **objektorientierte Programmierung (OOP)** ins Spiel.
+When all functions and variables are placed in a single file without any structure, things can quickly become chaotic. Code becomes difficult to manage, hard to maintain, and prone to errors. This is where **object-oriented programming (OOP)** comes in.
 
-OOP hilft uns dabei, Programme in logisch getrennte **Objekte** zu strukturieren. Jedes Objekt ist eine Kombination aus:
+OOP helps us structure programs into logically separated **objects**. Each object is a combination of:
 
-- **Attributen** (Variablen, die den Zustand beschreiben)
-- **Methoden** (Funktionen, die das Verhalten definieren)
+- **Attributes** (variables that describe the state)
+- **Methods** (functions that define behavior)
 
-So entsteht übersichtlicher, wiederverwendbarer und wartbarer Code.
-
----
-
-## Was ist ein Objekt?
-
-Ein Objekt ist eine Art "Mini-Programm" in sich. Es enthält sowohl die Daten als auch die Funktionen, die mit diesen Daten arbeiten.
-
-### Beispiel: Ein Auto als Objekt
-
-Stellen wir uns ein Auto als Objekt vor. Ein Auto hat bestimmte Eigenschaften (**Attribute**) und bestimmte Fähigkeiten (**Methoden**):
-
-- **Attribute**: `model`, `color`
-- **Methoden**: `startCar()`, `turnOffCar()`
+This results in cleaner, reusable, and maintainable code.
 
 ---
 
-## Beispiel in Code
+## What is an Object?
 
-Hier ein einfaches Beispiel in Java (funktioniert sehr ähnlich in anderen OOP-Sprachen wie C++, Python, etc.):
+An object is like a "mini-program" in itself. It contains both data and the functions that operate on that data.
 
-### Klasse `Car`
+### Example: A Car as an Object
+
+Let’s take a car as an example of an object. A car has certain properties (**attributes**) and certain capabilities (**methods**):
+
+- **Attributes**: `model`, `color`
+- **Methods**: `startCar()`, `turnOffCar()`
+
+---
+
+## Code Example
+
+Here’s a simple example in Java (the concept is very similar in other OOP languages like C++, Python, etc.):
+
+### Class `Car`
 
 ```java
 public class Car {
     String model;
     String color;
 
-    // Konstruktor
+    // Constructor
     public Car(String model, String color) {
         this.model = model;
         this.color = color;
     }
 
-    // Methode zum Starten des Autos
+    // Method to start the car
     public void startCar() {
-        System.out.println(model + " startet.");
+        System.out.println(model + " is starting.");
     }
 
-    // Methode zum Ausschalten des Autos
+    // Method to turn off the car
     public void turnOffCar() {
-        System.out.println(model + " wird ausgeschaltet.");
+        System.out.println(model + " is turning off.");
     }
 }
 
