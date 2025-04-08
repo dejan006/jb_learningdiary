@@ -1,4 +1,4 @@
-# Kubernetes Objects – Simply Explained
+# Kubernetes Objects
 
 ## What Are Kubernetes Objects?
 
