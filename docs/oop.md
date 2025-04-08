@@ -55,7 +55,7 @@ public class Car {
 }
 ```
 
-### Class `Car`
+### Class `Main`
 ```java
 public class Main {
     public static void main(String[] args) {
