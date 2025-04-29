@@ -103,6 +103,7 @@ nav:
   - Platform: platform.md
   - AIC: aic.md
   - OSI: osi.md
+  - Golang: golang.md
   - Kubectl: kubectl.md
   - Vim: vim.md
   - OOP: oop.md
